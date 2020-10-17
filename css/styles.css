@@ -152,6 +152,10 @@ ul#menu li:hover ul.submenu {
     float: left;
 }
 
+.submenu {
+    z-index: 999;
+}
+
 .slider-wrap {
     width: 652px;
     margin: 10px auto;
