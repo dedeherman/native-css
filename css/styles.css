@@ -187,6 +187,164 @@ ul#menu li:hover ul.submenu {
     -webkit-animation-timing-function: ease-in-out;
 }
 
+li h5 {
+    background: rgba(0, 0, 0, 3);
+    border-top: 1px solid black;
+    font-size: 11px;
+    color: white;
+    bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    -webkit-animation: headings;
+    -webkit-animation-duration: 20s;
+}
+
+h5 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@-webkit-keyframes "headings" {
+    0%,
+    10% {
+        bottom: 0;
+    }
+    13%,
+    33%,
+    53% {
+        bottom: -100%;
+    }
+    15%,
+    30%,
+    35%,
+    50%,
+    55% {
+        bottom: 0;
+    }
+}
+
+@-webkit-keyframes "slide" {
+    0%,
+    10% {
+        left: 0;
+    }
+    15%,
+    30% {
+        left: -652px;
+    }
+    35%,
+    50% {
+        left: -1304px;
+    }
+    55% {
+        left: 0;
+    }
+}
+
+h4.header-box {
+    font: 20px;
+    margin: 15px 0 10px 5px;
+}
+
+#sidebar {
+    width: 320px;
+    float: left;
+}
+
+section {
+    display: block;
+}
+
+.accordion {
+    background-color: #eeee;
+    border: 1px solid #cccc;
+    width: 320px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #999999;
+}
+
+.accordion section {
+    border-bottom: 1px solid #cccc;
+    margin: 5px;
+    background-color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    border-radius: 5px;
+}
+
+.accordion h2,
+.accordion p {
+    margin: 0;
+}
+
+.accordion p {
+    padding: 10px;
+}
+
+.accordion h2 a {
+    display: block;
+    font-size: 0.7em;
+    position: relative;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.accordion h2 a:hover {
+    background: #ffffff;
+}
+
+.accordion h2+div {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+}
+
+.accordion:target h2 a:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    margin-top: -3px;
+    border-top: 5px solid #333333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.accordion:target h2+div {
+    height: 90px;
+}
+
+
+/* artikel */
+
+.daftae-artikel {
+    background: -webkit-linear-gradient(top, #f3f2f2, #c2c0c0);
+    border: 10px;
+    margin: 15px 10px 10px 10px;
+    padding: 10px;
+}
+
+
+/* judul artikel */
+
+.judul-artikel {
+    margin: -3px 10px 20px 5px;
+    font: 20px;
+}
+
+
+/* warna judul artikel */
+
+.judul-artikel a {
+    color: #c24704;
+    text-decoration: none;
+    text-shadow: 0 2px 0 #ffffff;
+}
+
 
 /* Footer */
 
