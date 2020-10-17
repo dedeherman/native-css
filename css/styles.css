@@ -87,7 +87,7 @@ input#bcari {
 
 ul#menu {
     margin: 0;
-    padding: 10;
+    padding: 10px;
 }
 
 ul#menu li {
@@ -115,7 +115,7 @@ ul#menu li ul.submenu li:first-child a:after {
     border-bottom: 10px solid #666666;
     content: '';
     position: absolute;
-    top: -15px;
+    top: -15;
     left: 10px;
     z-index: 9;
 }
@@ -135,7 +135,7 @@ ul#menu li ul.submenu {
 
 ul#menu li ul.submenu li {
     margin: 0;
-    display: inline-block;
+    display: block;
 }
 
 ul#menu li:hover ul.submenu {
@@ -184,7 +184,7 @@ ul#menu li:hover ul.submenu {
 .slider-wrap ul,
 .slider-wrap h5 {
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-out;
 }
 
 li h5 {
@@ -321,7 +321,7 @@ section {
 
 /* artikel */
 
-.daftae-artikel {
+.daftar-artikel {
     background: -webkit-linear-gradient(top, #f3f2f2, #c2c0c0);
     border: 10px;
     margin: 15px 10px 10px 10px;
@@ -360,8 +360,8 @@ section {
     font-size: 14px;
     font-family: Courier, monospace;
     margin: 10px 30px 50px auto;
-    padding: 10px;
-    width: 160px;
+    padding: 20px;
+    width: 195px;
     height: 65px;
     background: #00ada7;
     background: -webkit-linear-gradient(top, #9ed6d3, #00ada7, #018984);
